@@ -1,0 +1,21 @@
+{
+  "_comment": "SAMPLE PEOPLE for local development only (MSG_DIRECTORY=static). Invented names, invented reports. Production reads the Web App's directory API.",
+  "users": [
+    {"userId": 101, "customerId": 1, "email": "priya@sample.test", "name": "Priya Nair", "role": "Category Manager", "canViewTeamTasks": true},
+    {"userId": 102, "customerId": 1, "email": "ahmed@sample.test", "name": "Ahmed Rahman", "role": "Store Manager ST1"},
+    {"userId": 103, "customerId": 1, "email": "lina@sample.test", "name": "Lina Fernandes", "role": "Supply Planning"},
+    {"userId": 104, "customerId": 1, "email": "marcus@sample.test", "name": "Marcus Webb", "role": "Finance"},
+    {"userId": 105, "customerId": 1, "email": "former@sample.test", "name": "Sam Former", "role": "Store Manager ST2", "active": false},
+    {"userId": 201, "customerId": 2, "email": "other@othercustomer.test", "name": "Other Customer User", "role": "Admin"}
+  ],
+  "reportGrants": {
+    "101": [11, 12, 13],
+    "102": [11],
+    "103": [12],
+    "104": [11, 12, 13],
+    "201": [91]
+  },
+  "moduleOfReport": {"11": 3, "12": 3, "13": 4, "91": 9},
+  "pbReportIdOfReport": {"11": "5f2a1b3c-0000-4000-8000-000000000011"},
+  "aiAccess": {"101": true, "102": true, "104": true}
+}

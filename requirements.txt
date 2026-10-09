@@ -1,0 +1,12 @@
+fastapi==0.128.0
+uvicorn[standard]==0.40.0
+pydantic==2.12.5
+pydantic-settings==2.13.1
+fastapi-azure-auth==5.0.1
+httpx==0.28.1
+aiohttp==3.13.3
+azure-core==1.38.2
+azure-identity==1.21.0
+azure-storage-blob==12.25.1
+azure-data-tables==12.7.0
+azure-messaging-webpubsubservice==1.3.0
